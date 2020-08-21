@@ -1,0 +1,22 @@
+;
+; MyDriver1.inf
+;
+
+[Version]
+Signature="$WINDOWS NT$"
+Class=System
+ClassGuid={4d36e97d-e325-11ce-bfc1-08002be10318}
+Provider=%ManufacturerName%
+DriverVer = 08/20/2020,13.59.11.164
+CatalogFile=MyDriver1.cat
+PnpLockDown=1
+
+[DefaultInstall.NTx86]
+;CopyFiles = MyCopyFiles_x86
+;AddReg = MyAddReg
+
+[Strings]
+ManufacturerName="Anesh"
+
+
+
